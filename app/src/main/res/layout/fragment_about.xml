@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.AboutFragment">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        app:cardElevation="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/aboutText"
+            android:textSize="30dp"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Hi my name is Saurabh, I am a Software Engineer by profession and cook by hobby.
+I am currently situated in Berlin, Germany along with my beautiful wife.
+I have been working in Software industry for 10 long years which is an amazing journey so far.
+I am passionate about technology and always curios about new trends in it." />
+    </com.google.android.material.card.MaterialCardView>
+</RelativeLayout>
